@@ -11,6 +11,13 @@ git clone https://your-git-url
 ```bash
 mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=hu.bme.mit.devops -DartifactId=maven-app
 ```
+6. Extend pom.xml with the following part
+```xml
+<properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
+```
 6. Build and package the code
 ```bash
 mvn package
