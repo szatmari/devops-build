@@ -70,7 +70,7 @@ mainClassName = 'hu.bme.mit.devops.App'
 19. Create new repository for the demo SpringBoot RESTFul application
 19. Clone spring example
 ```bash
-git clone ...
+git clone https://github.com/szatmari/devops-build.git
 ```
 20. Set new origin
 ```bash
