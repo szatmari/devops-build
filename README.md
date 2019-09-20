@@ -86,7 +86,7 @@ git pull myorigin master --allow-unrelated-histories
 ```
 22. Test the application: 
 ```bash
-curl http://localhost:8080/greeting?name=User
+curl http://localhost:8080/greeting?name=Zoltan
 ```
 24. Add dependency (`src/main/java/hello/Greeting.java`)
 ```java
@@ -97,5 +97,7 @@ import org.joda.time.LocalTime;
         return content +" " + currentTime;
     }
 ```
-24. Test the application again: http://localhost:8080/greeting?name=User
-
+24. Test the application again
+```bash
+curl http://localhost:8080/greeting?name=Zoltan
+```
