@@ -60,6 +60,7 @@ gradle init --type java-application
 17. Convert your maven project into a gradle project and try to execute it
 ```bash
 gradle init --type pom
+./gradlew tasks
 ./gradlew run
 ```
 19. Extend build.gradle
