@@ -2,7 +2,7 @@
 
 1. Open your GitHub account (Register if needed)
 2. Create new repository "maven-test" + README
-3. Clone xour repository to your client
+3. Clone your repository to your client
 ```bash
 git clone https://your-git-url
 ```
