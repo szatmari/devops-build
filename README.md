@@ -79,8 +79,8 @@ gradle run
 17. Convert your maven project into a gradle project and try to execute it
 ```bash
 gradle init --type pom
-./gradlew tasks
-./gradlew run
+gradle tasks
+gradle run
 ```
 19. Extend build.gradle
 ```
@@ -102,7 +102,7 @@ git pull myorigin master --allow-unrelated-histories
 21. Commit and push to `myorigin`
 21. Run the SpringBoot REST App
 ```bash
-./gradlew bootRun
+gradle bootRun
 ```
 22. Test the application: 
 ```bash
