@@ -60,7 +60,19 @@ git commit, merge
 mkdir gradle-app 
 cd gradle-app
 gradle init --type java-application
-./gradlew run
+```
+Set Java compatibility level in build.gradle file
+```
+apply plugin: 'java'
+...
+compileJava {
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+}
+```
+Run the application
+```bash
+gradle run
 ```
 14. Commit and push your code, review and close your issue, while merge your code.
 16. Create an issue for maven to gradle conversion
